@@ -1,0 +1,952 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: moron;
+    src: url('../Assets/Fonts/Manrope-VariableFont_wght.ttf');
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 120px;
+}
+.header {
+    height: 120px;
+    width: 1058px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.burger {
+    height: 48px;
+    width: 48px;
+    background-color: #17181C;
+    border-radius: 5px;
+    display: none;
+}
+.class {
+    height: 20px;
+    width: 25px;
+    margin: auto;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.line3:nth-child(1) {
+    height: 2.25px;
+    width: 25px;
+    background-color: white;
+}
+.line3:nth-child(2) {
+    height: 2.25px;
+    width: 25px;
+    background-color: white;
+}
+.line3:nth-child(3) {
+    height: 2.25px;
+    width: 25px;
+    background-color: white;
+}
+.shadow {
+    background-image: url('../Assets/Images/shadow.png');
+    background-repeat: no-repeat;
+    height: 960px;
+    width: 100%;
+}
+.pic {
+    background-image: url('../Assets/Images/pic.png');
+    background-repeat: no-repeat;
+    height: 960px;
+    width: 100%;
+    margin: auto;
+}
+
+.image {
+    background-image: url('../Assets/Images/Group.png');
+    height: 86px;
+    width: 170px;
+}
+
+ul {
+    height: 26px;
+    width: 401px;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    font-family: moron;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+li:hover {
+    text-decoration: underline;
+}
+.number {
+    font-size: 20px;
+    font-family: moron;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 800;
+    margin-top: -3px;
+    margin-right: 15px;
+}
+.btns {
+    height: 55px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+}
+button {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: moron;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    background-color: #5BBFC8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    width: 100%;
+    height: 809px;
+}
+.section {
+    width: 1058px;
+    height: 809px;
+    margin-top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.shini {
+    height: 436px;
+    width: 1058px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mobile {
+    font-size: 64px;
+    font-family: moron;
+    font-weight: 800;
+    color: white;
+    line-height: 80px;
+    height: 173px;
+    width: 905px;
+}
+.internet {
+    font-size: 18px;
+    font-family: moron;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24.59px;
+    height: 104px;
+    width: 540px;
+}
+.call2 {
+    height: 66px;
+    width: 250px;
+    background-color: #FFD200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.call2:hover {
+    background-color: #DEB905;
+}
+.shini2 {
+    font-size: 16px;
+    font-family: moron;
+    font-weight: 700;
+    color: black;
+}
+img {
+    height: 33px;
+    width: 33px;
+    margin-left: 8px;
+}
+
+
+.cards {
+    height: 288px;
+    width: 1058px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fleshcards:nth-child(1) {
+    height: 288px;
+    width: 412px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Assets/Images/hands-only-mechanic-holding-tire-repair-garage-replacement-winter-summer-tires\ 2.png');
+    transition-duration: 0.3s;
+}
+.background {
+    background-image: url('../Assets/Images/shadow2.png');
+    height: 288px;
+    width: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.fleshcards:nth-child(1):hover {
+    transform: translateY(-30px);
+}
+.card6 {
+    height: 156px;
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.remont {
+    font-family: moron;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+}
+.line {
+    height: 6px;
+    width: 88px;
+    background-color: #171717;
+    border-radius: 5px;
+}
+.uslugi {
+    font-family: moron;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+
+.fleshcards:nth-child(2) {
+    background-color: #FFD200;
+    height: 288px;
+    width: 205px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+.fleshcards:nth-child(2):hover {
+    transform: translateY(-30px);
+}
+
+.card7 {
+    height: 240px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: -25px;
+}
+.card3 {
+    height: 86px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.price {
+    height: 25.19px;
+    width: 78.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEB905;
+    border-radius: 5px;
+}
+.rubles {
+    font-family: moron;
+    font-size: 14px;
+    font-weight: 300;
+    color: #534407;
+}
+.vehicle {
+    font-family: moron;
+    font-size: 19px;
+    font-weight: 800;
+    color: black;
+}
+.image2 {
+    width: 90px;
+    height: 90px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+
+
+.fleshcards:nth-child(3) {
+    background-color: #4B5257;
+    height: 288px;
+    width: 205px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+.fleshcards:nth-child(3):hover {
+    transform: translateY(-30px);
+}
+.card8 {
+    height: 240px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: -25px;
+}
+.card4 {
+    height: 86px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.price2 {
+    height: 25.19px;
+    width: 78.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B0B0B0;
+    border-radius: 5px;
+}
+.dollars {
+    font-size: 14px;
+    font-family: moron;
+    font-weight: 300;
+    color: white;
+}
+.vehicle2 {
+    font-size: 19px;
+    font-family: moron;
+    font-weight: 800;
+    color: white;
+}
+
+.image3 {
+    width: 90px;
+    height: 90px;
+    margin-top: 65px;
+    margin-left: 20px;   
+}
+.fleshcards:nth-child(4) {
+    background-color: #5BBFC8;
+    height: 288px;
+    width: 205px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+.fleshcards:nth-child(4):hover {
+    transform: translateY(-30px);
+}
+.card9 {
+    height: 240px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.card5 {
+    height: 86px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.price3 {
+    height: 25.19px;
+    width: 78.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #49A1A9;
+    border-radius: 5px;
+}
+.euros {
+    font-size: 14px;
+    font-family: moron;
+    font-weight: 300;
+    color: #1E4D54;
+}
+.vehicle3 {
+    font-size: 19px;
+    font-family: moron;
+    font-weight: 800;
+    color: black;
+}
+.image4 {
+    width: 90px;
+    height: 90px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.section2 {
+    height: 727px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+}
+.yuridi  {
+    height: 152px;
+    width: 882px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.litsa  {
+    font-family: moron;
+    font-size: 45px;
+    font-weight: 800;
+    color: #17181C;
+}
+.aks {
+    height: 38px;
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iya  {
+    height: 38px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFD200;
+    border-radius: 5px;
+}
+.aksiya {
+    font-family: moron;
+    font-size:  22px;
+    font-weight: 700;
+    color: black;
+}
+.avto {
+    font-family: moron;
+    font-weight: 700;
+    font-size: 22px;
+    color: black;
+}
+
+
+.wrapper {
+    height: 569px;
+    width: 1529px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image5 {
+    height: 569px;
+    width: 942px;
+    margin-left: 0px;
+}
+.stuff {
+    height: 540px;
+    width: 481px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid {
+    height: 180px;
+    width: 540px;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid_son:nth-child(2) {
+    font-family: moron;
+    font-size: 22px;
+    font-weight: 700;
+    color: #17181C;
+}
+
+.grid_son:nth-child(4) {
+    font-family: moron;
+    font-size: 22px;
+    font-weight: 700;
+    color: #17181C;
+}
+.grid_son:nth-child(6) {
+    font-family: moron;
+    font-size: 22px;
+    font-weight: 700;
+    color: #17181C;
+}
+.grid_son:nth-child(8) {
+    font-family: moron;
+    font-size: 22px;
+    font-weight: 700;
+    color: #17181C;
+}
+.line2:nth-child(1) {
+    background-color: #171717;
+    height: 28px;
+    width: 5px;
+    border-radius: 5px;
+}
+.line2:nth-child(2) {
+    background-color: #171717;
+    height: 28px;
+    width: 5px;
+    border-radius: 5px;
+}
+.line2:nth-child(3) {
+    background-color: #171717;
+    height: 28px;
+    width: 5px;
+    border-radius: 5px; 
+}
+.line2:nth-child(4) {
+    background-color: #171717;
+    height: 28px;
+    width: 5px;
+    border-radius: 5px;
+}
+
+
+.nds {
+    height: 65px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.your_phone {
+    font-family: moron;
+    font-size: 14px;
+    font-weight: 500;
+    color: #17181C;
+}
+.container {
+    height: 66px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.phone {
+    font-family: moron;
+    font-size: 16px;
+    font-weight: 700;
+    color: #17181C;
+}
+.nothing {
+    height: 25px;
+    width: 25px;
+}
+
+
+
+.block {
+    height: 66px;
+    width: 250px;
+    background-color: #FFD300;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.block:hover {
+    background-color: transparent;
+    border: 3px solid #FFD300;
+}
+.block:hover .zayavka {
+    color: black;
+}
+.zayavka {
+    font-family: moron;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+    .burger {
+        display: block;
+    }
+    ul {
+        display: none;
+    }
+    .btns {
+        display: none;
+    }
+    .header {
+        height: 130px;
+        width: 340px;
+    }
+    .pic {
+        height: 565px;
+        width: 375px;
+        object-fit: cover;
+    }
+    .shadow {
+        height: 565px;
+        width: 375px;
+        object-fit: cover;
+    }
+    .shini {
+        height: 420px;
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .mobile {
+        font-size: 33px;
+        font-family: moron;
+        font-weight: 800;
+        color: white;
+        line-height: 45px;
+        height: 80px;
+        width: 335px;
+    }
+    .internet {
+        font-size: 16px;
+        font-family: moron;
+        font-weight: 400;
+        color: white;
+        line-height: 21px;
+        height: 98px;
+        width: 325px;
+    }
+    .call2  {
+        height: 66px;
+        width: 250px;
+        background-color: #FFD200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .shini2 {
+        font-size: 16px;
+        font-family: moron;
+        font-weight: 700;
+        color: black;
+    }
+    .section {
+        width: 335px;
+        height: 1300px;
+        margin-top: 100px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .cards {
+        height: 801px;
+        width: 331px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fleshcards:nth-child(1) {
+        background-image: url('../Assets/Images/hands-only-mechanic-holding-tire-repair-garage-replacement-winter-summer-tires\ 2.png');
+        height: 263px;
+        width: 331px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fleshcards:nth-child(1):hover {
+        transform: translateY(0px);
+    }
+    .background {
+        background-image: url('../Assets/Images/shadow2.png');
+        height: 263px;
+        width: 331px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .remont {
+        font-family: moron;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 27px;
+        color: black;
+    }
+    .line {
+        height: 7px;
+        width: 88px;
+    }
+    .uslugi {
+        font-family: moron;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21px;
+        color: black;
+    }
+    .card:nth-child(1) {
+        height: 160px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card:nth-child(3) {
+        height: 110px;
+        width: 160px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card:nth-child(4) {
+        height: 110px;
+        width: 160px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .fleshcards:nth-child(2) {
+        background-color: #FFD200;
+        height: 170px;
+        width: 331px;
+        border-radius: 5px;
+    }
+    .fleshcards:nth-child(2):hover {
+        transform: translateY(0px);
+    }
+    .card7 {
+        height: 150px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    .image2 {
+        width: 90px;
+        height: 90px;
+        margin-top: 80px;
+        margin-right: 20px;
+    }
+    .card3 {
+        height: 86px;
+        width: 100px;
+        margin-top: 40px;
+    }
+    .price {
+        height: 25px;
+        width: 81px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #DEB905;
+        border-radius: 5px;
+    }
+    .rubles {
+        font-family: moron;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .vehicle {
+        font-family: moron;
+        font-size: 19px;
+        font-weight: 800;
+    }
+    .fleshcards:nth-child(3) {
+        background-color: #4B5257;
+        height: 170px;
+        width: 331px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fleshcards:nth-child(3):hover {
+        transform: translateY(0px);
+    }
+        .card8 {
+        height: 150px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -30px;
+        margin-left: 20px;
+        margin: auto;
+    }
+    .image3 {
+        width: 90px;
+        height: 90px;
+    }
+    .card4 {
+        height: 86px;
+        width: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .fleshcards:nth-child(4) {
+        background-color: #5BBFC8;
+        height: 170px;
+        width: 331px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fleshcards:nth-child(4):hover {
+        transform: translateY(0px);
+    }
+    .card9 {
+        height: 150px;
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -30px;
+        margin-left: 20px;
+        margin: auto;
+    }
+    .card5 {
+        height: 86px;
+        width: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .image4 {
+        width: 90px;
+        height: 90px;
+    }
+    .section2 {
+        width: 375px;
+        height: 1200px;
+        margin-top: 850px;
+        display: flex;
+        flex-direction: column;
+    }
+    .yuridi {
+        height: 115px;
+        width: 375px;
+    }
+    .litsa {
+        font-size: 30px;
+        line-height: 35px;
+        height: 72px;
+        width: 320px;
+        margin: auto;
+        text-align: center;
+    }
+    .aks {
+        height: 38px;
+        width: 320px;
+        display: flex;
+        align-items: center;
+    }
+    .iya {
+        height: 38px;
+        width: 100px;
+    }
+    .aksiya {
+        font-size: 18px;
+    }
+    .avto {
+        font-size: 18px;
+    }
+    .wrapper {
+        height: 930px;
+        width: 375px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .image5 {
+        height: 346px;
+        width: 375px;
+        object-fit: cover;
+    }
+    .grid {
+        height: 210px;
+        width: 350px;
+        margin: auto;
+    }
+    .block {
+        margin-top: 30px;
+    }
+    .block:hover {
+        background-color: #FFD300;
+        border: none;
+    }
+    .block:hover .zayavka {
+        color: white;
+    }
+}
